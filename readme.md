@@ -57,14 +57,12 @@
 | 4 | 411 | 330 | 665 | 803 | 291 |
 | 5 | 253 | 445 | 256 | 234 | 807 |
 
-## 3.环境配置
+## 3.使用方法
 - 输入下面命令完成环境配置
 ```bash
 conda create -n traffic_distrubution python=3.8
 pip install -r requirements.txt
 ```
-
-## 3.使用方法
 将准备好的交通现状OD分布矩阵、交通现状时间代价矩阵、交通未来OD总量、交通未来时间代价矩阵数据填入.csv格式文件中，表格不需要输入行列的标题。数据文件放置于data目录下。
 - 输入下面的命令开始迭代计算
 ```bash
@@ -72,4 +70,6 @@ python main.py --current_od_path <your current OD path> --future_od_path <your f
 ```
 
 ### 4.作者
-[Ica_l](desprado233@163.com)
+- Ica_l
+- 邮箱地址 : [desprado233@163.com](desprado233@163.com)
+- Github主页 : [https://github.com/HKP-791](https://github.com/HKP-791)
